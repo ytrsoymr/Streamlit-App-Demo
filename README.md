@@ -32,3 +32,45 @@ To run this project locally, follow these steps:
    ```bash
    git clone <repository_url>
    cd streamlit-app-demo
+
+2. Set up a virtual environment (optional but recommended):
+
+     ```bash
+     python -m venv venv
+     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+3. Install the required packages:
+
+     ```bash
+     pip install -r requirements.txt
+     
+4. Run the Streamlit app:
+
+   ```bash
+   streamlit run app.py
+
+5. Open the app in your browser:
+Navigate to `http://localhost:8501` or as specified in the terminal output.
+
+## Usage
+
+Interact with the widgets on the main page to explore the various features.
+
+- Upload a CSV file to view its contents.
+- Check out the charts and data visualization options.
+
+## Requirements
+
+- Python 3.7 or higher
+- Streamlit
+- Pandas
+- NumPy
+- Matplotlib
+
+## File Structure
+
+```bash
+streamlit-app-demo/
+├── app.py               # Main Streamlit app
+├── requirements.txt     # Python dependencies
+├── README.md            # Project documentation
